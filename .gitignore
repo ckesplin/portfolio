@@ -1,0 +1,47 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Node.
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+dist/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+out/
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Maven
+target/
+
+# Spring Boot
+*.h2.db
+
+# Test output
+/test-output/
+*.test.js
+*.spec.js
