@@ -35,10 +35,35 @@ const config: Config = {
           foreground: 'var(--color-accent-fg)',
         },
       },
+
+      typography: ({ theme }) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.foreground.DEFAULT'),
+            a: { color: theme('colors.accent.DEFAULT') },
+            strong: { color: theme('colors.foreground.DEFAULT') },
+            h1: { color: theme('colors.foreground.DEFAULT') },
+            h2: { color: theme('colors.foreground.DEFAULT') },
+            h3: { color: theme('colors.foreground.DEFAULT') },
+            h4: { color: theme('colors.foreground.DEFAULT') },
+            h5: { color: theme('colors.foreground.DEFAULT') },
+            h6: { color: theme('colors.foreground.DEFAULT') },
+            dt: { color: theme('colors.foreground.DEFAULT') },
+            th: { color: theme('colors.foreground.DEFAULT') },
+            code: { color: theme('colors.foreground.DEFAULT') },
+            blockquote: {
+              color: theme('colors.foreground.muted'),
+              borderLeftColor: theme('colors.border.DEFAULT'),
+            },
+            hr: { borderColor: theme('colors.border.DEFAULT') },
+          },
+        },
+      }),
     },
   },
 
   plugins: [
+    require('@tailwindcss/typography'),
     plugin(({ addBase }) => {
       addBase({
         ':root': {
