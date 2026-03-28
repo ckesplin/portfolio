@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-background-surface border-b border-border px-6 py-2 flex justify-between items-center">
       <div className="text-foreground font-semibold flex align-bottom">
         <img alt="logo" src="images/favicon-32x32.png" className="h-5.5 w-5.5" />
-        <div>tools</div>
+        <div className='pl-0.5'>tools</div>
       </div>
       <button
         onClick={toggle}
