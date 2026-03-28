@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <nav className="bg-background-surface border-b border-border px-6 py-2 flex justify-between items-center">
       <div className="text-foreground font-semibold flex align-bottom">
-        <img alt="logo" src="images/favicon-32x32.png" className="h-5.5 w-5.5" />
-        <div className='pl-0.5'>tools</div>
+        <img alt="logo" src="images/favicon-32x32.png" className="h-7.5 w-7.5" />
+        <div className='text-2xl'>Tools</div>
       </div>
       <button
         onClick={toggle}
-        className="bg-primary text-primary-foreground px-4 py-2 rounded-sm flex justify-center align-middle"
+        className="bg-primary text-primary-foreground px-2 py-1 rounded-sm flex justify-center align-middle"
       >
         {
           dark ?

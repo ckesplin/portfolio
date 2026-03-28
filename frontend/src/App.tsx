@@ -1,9 +1,12 @@
-import Navbar from './components/Navbar'
+import { createRouter, RouterProvider } from '@tanstack/react-router'
+import { routeTree } from './routeTree.gen'
 
 const App = () => {
+
+  const router = createRouter({routeTree})
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navbar />
+      <RouterProvider router={router} />
     </div>
   )
 }
