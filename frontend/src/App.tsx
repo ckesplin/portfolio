@@ -5,7 +5,7 @@ const App = () => {
 
   const router = createRouter({routeTree})
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="h-screen w-screen bg-background text-foreground">
       <RouterProvider router={router} />
     </div>
   )
