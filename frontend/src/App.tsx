@@ -1,7 +1,10 @@
-const App = () => {
+import Navbar from './components/Navbar'
 
+const App = () => {
   return (
-     <div>cke portfolio</div>
+    <div className="min-h-screen bg-background text-foreground">
+      <Navbar />
+    </div>
   )
 }
 
