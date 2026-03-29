@@ -8,7 +8,7 @@ const MarkdownEditorPage = () => {
 
   return (
     <div className="container flex justify-between align-middle mx-auto h-[calc(100%-3rem)] pt-3 pb-3">
-      <MarkdownEditComponent setValue={setMarkdownText}/>
+      <MarkdownEditComponent value={markdownText} setValue={setMarkdownText}/>
       <MarkdownViewComponent html={convertMarkdownToHtml(markdownText)}/>
     </div>
   )

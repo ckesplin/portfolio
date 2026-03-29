@@ -47,9 +47,10 @@ const config: Config = {
             h3: { color: theme('colors.foreground.DEFAULT') },
             h4: { color: theme('colors.foreground.DEFAULT') },
             h5: { color: theme('colors.foreground.DEFAULT') },
-            h6: { color: theme('colors.foreground.DEFAULT') },
+            h6: { color: theme('colors.foreground.muted') },
             dt: { color: theme('colors.foreground.DEFAULT') },
             th: { color: theme('colors.foreground.DEFAULT') },
+            li: { color: theme('colors.foreground.DEFAULT') },
             code: { color: theme('colors.foreground.DEFAULT') },
             blockquote: {
               color: theme('colors.foreground.muted'),
@@ -69,7 +70,7 @@ const config: Config = {
         ':root': {
           '--color-bg': '#F2FFF4',
           '--color-surface': '#E0F5E3',
-          '--color-border': '#C5ECC9',
+          '--color-border': '#003B00CC',
 
           '--color-text': '#0D1A0F',
           '--color-text-muted': '#2D6B36',
@@ -85,7 +86,7 @@ const config: Config = {
           '--color-bg': '#0D0208',
           '--color-surface': '#110310',
 
-          '--color-border': '#003B00',
+          '--color-border': '#003B00CC',
 
           '--color-text': '#C0FFCE',
           '--color-text-muted': '#6AFF90',
